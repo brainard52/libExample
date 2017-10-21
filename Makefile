@@ -1,6 +1,7 @@
 all:
 	cd lib && make
-	cp lib/libexample.a main/include
+	cp lib/libexample.a main/lib
+	cp lib/example.hpp main/include
 	cd main && make 1
 	cd main && make 2
 
